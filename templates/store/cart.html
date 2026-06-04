@@ -1,0 +1,24 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+<div class="box-element">
+    <a class="btn btn-outline-success" href="{% url 'store' %}">Continue Shopping</a>
+    <br>
+    <br>
+    <table class="table">
+        <th><h5>Product:<strong>Royal Enfield</strong></h5></th>
+        <th><h5>Total Price:<strong>$499.99</strong></h5></th>
+        <th>
+            <a style="float:right;margin:5px;" class="btn btn-outline-success" href="{% url 'checkout' %}">Checkout</a>
+        </th>
+    </table>
+</div>
+
+            
+            
+
+
+
+
+<h3>Your Shopping Cart</h3>
+{% endblock %}

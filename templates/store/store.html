@@ -1,0 +1,47 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+<div class="row">
+    <div class="col-lg-4">
+        <div class="box-element product">
+            <img class="thumbnail" src="{% static 'images/racing-blue.webp' %}">
+            <div class="box-element product">
+                <h6><strong>Racing Blue</strong></h6>
+                <br>
+                <button class="btn btn-outline-success">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View </a>
+                <h4 style="display:inline-block;float:right;"><strong>$199.99</strong></h4>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="box-element product">
+            <img class="thumbnail" src="{% static 'images/jss logo.jpg' %}">
+            <div class="box-element product">
+                <h6><strong>JSS Logo</strong></h6>
+                <br>
+                <button class="btn btn-outline-success">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View </a>
+                <h4 style="display:inline-block;float:right;"><strong>$19.99</strong></h4>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="box-element product">
+            <img class="thumbnail" src="{% static 'images/images.jpeg' %}">
+            <div class="box-element product">
+                <h6><strong>Royal Enfield</strong></h6>
+                <br>
+                <button class="btn btn-outline-success">Add to Cart</button>
+                <a class="btn btn-outline-success" href="#">View </a>
+                <h4 style="display:inline-block;float:right;"><strong>$499.99</strong></h4>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}
